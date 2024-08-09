@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Foreign word grabber",
+  "description": "Grab foreign words, translate them and save to CSV",
+  "version": "1.0",
+  "action": {
+    "default_popup": "pop-up-page/hello.html",
+    "default_icon": "images/icons/extIcon.png"
+  }
+}
