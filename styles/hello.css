@@ -7,3 +7,17 @@ body{
     width: 400px;
     text-align: center;
 }
+
+#grabbed-words {
+    height: 200px;
+    overflow: scroll;
+}
+
+#delBtn {
+    margin-top: 20px;
+    color: red;
+}
+
+#loadBtn {
+    color: green;
+}

@@ -4,9 +4,15 @@
 </head>
 <body>
 <h1>Word Grabber</h1>
+<div id="grabbed-words-container">
+    <div id="grabbed-words">
+    </div>
+    <button id="delBtn">Clear</button>
+    <button id="loadBtn">Download Excel</button>
+</div>
 <div id="word-container">
     <div id="selected-word">
-        <p>Currently grabbed word:</p>
+        <p>Currently, grabbed word:</p>
         <p id="word"></p>
     </div>
     <div id="translation">
@@ -15,5 +21,5 @@
     </div>
 </div>
 </body>
-<script src="../scripts/hello.js"></script>
+<script type="module" src="../scripts/hello.js"></script>
 </html>
