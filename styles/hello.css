@@ -11,6 +11,21 @@ body{
 #grabbed-words {
     height: 200px;
     overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grabbed-words th, td {
+    padding: 8px 10px;
+}
+
+#grabbed-words table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
 }
 
 #delBtn {

@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const clickedWord = message.word;
         if (clickedWord) {
             const elemData = {
-                name: "p",
+                name: "tr",
                 parent: "grabbed-words"
             }
             selectedWordElem.innerText = clickedWord;
