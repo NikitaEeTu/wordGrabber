@@ -1,4 +1,4 @@
-import { EKILEX_API_KEY } from "../settings/key";
+import { EKILEX_API_KEY } from "../settings/key.js";
 
 export const generateElement = (arr, elemData) => arr.forEach(elemText => {
     const htmlElem = document.createElement(elemData.name);
